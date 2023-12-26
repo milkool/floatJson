@@ -10,6 +10,10 @@ type JFloat struct {
 	Digits int
 }
 
+func NewJFloat(value float64, digits int) JFloat {
+	return JFloat{Value: value, Digits: digits}
+}
+
 func (j JFloat) MarshalJSON() ([]byte, error) {
 	// chechk digits
 	if j.Digits < 0 {
