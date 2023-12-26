@@ -11,10 +11,7 @@ type JsonTest struct {
 func main() {
 	jt := JsonTest{
 		S1: "exsample",
-		J1: jfloat.JFloat{
-			Value:  100,
-			Digits: 2,
-		},
+		J1: jfloat.NewJFloat(123.456789, 2),
 	}
 
 	jsonOutput, _ := json.Marshal(jt)
@@ -24,5 +21,5 @@ func main() {
 
 ## output
 ```
-{"s1":"exsample","j1":100.00}
+{"s1":"exsample","j1":123.45}
 ```
