@@ -1,0 +1,6 @@
+
+# Ignore project enviroments files
+.vscode/*
+
+# mac temp
+.DS_Store
