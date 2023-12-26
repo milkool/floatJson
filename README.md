@@ -21,5 +21,5 @@ func main() {
 
 ## output
 ```
-{"s1":"exsample","j1":123.45}
+{"s1":"exsample","j1":123.46}
 ```
