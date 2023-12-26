@@ -4,3 +4,6 @@
 
 # mac temp
 .DS_Store
+
+# git
+.git/*
